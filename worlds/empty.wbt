@@ -1,0 +1,77 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  basicTimeStep 16
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.9996453183196697 0.02545302356681789 -0.00783461249028464 1.57130562404959
+  position -0.11071727097444783 2.7215574831539273 -0.08476626340978066
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorTileSize 0.25 0.25
+  wallHeight 0.05
+}
+CardboardBox {
+  translation 0.33732 0.04 -0.185
+  rotation 0 -1 0 4.692820414042842e-06
+  name "cardboard box(2)"
+  size 0.07 0.07 0.07
+  mass 0.01001
+}
+CardboardBox {
+  translation -0.181859 0.04 -0.176168
+  rotation 0 -1 0 4.692820414042842e-06
+  name "cardboard box(1)"
+  size 0.07 0.07 0.07
+  mass 0.01001
+}
+CardboardBox {
+  translation 0.0722742 0.04 0.318366
+  rotation 0 -1 0 4.692820414042842e-06
+  name "cardboard box(5)"
+  size 0.07 0.07 0.07
+  mass 0.01001
+}
+CardboardBox {
+  translation 0.301569 0.04 0.0596112
+  rotation 0 -1 0 4.692820414042842e-06
+  name "cardboard box(8)"
+  size 0.07 0.07 0.07
+  mass 0.01001
+}
+CardboardBox {
+  translation 0.317541 0.04 0.291424
+  rotation 0 -1 0 4.692820414042842e-06
+  name "cardboard box(9)"
+  size 0.07 0.07 0.07
+  mass 0.01001
+}
+CardboardBox {
+  translation -0.147757 0.04 0.295297
+  rotation 0 -1 0 4.692820414042842e-06
+  name "cardboard box(7)"
+  size 0.07 0.07 0.07
+  mass 0.01001
+}
+CardboardBox {
+  translation -0.311628 0.04 0.050401
+  rotation -9.58970662735936e-09 0.9999916483091085 0.004086968562638378 -5.307179586466759e-06
+  name "cardboard box(4)"
+  size 0.07 0.07 0.07
+  mass 0.01001
+}
+CardboardBox {
+  translation 0.0729713 0.04 -0.201458
+  rotation 0 -1 0 4.692820414042842e-06
+  name "cardboard box(3)"
+  size 0.07 0.07 0.07
+  mass 0.01001
+}
+E-puck {
+  translation 0.019 8.88179e-16 0.0414344
+  controller "robotController"
+}
